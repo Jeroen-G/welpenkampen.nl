@@ -46,7 +46,7 @@ export default function Page({ allPosts }: PageProps) {
             <Header />
             <Main>
                 <>
-                    <section className="mx-5 mb-5 grid-cols-2 items-center sm:mx-0 sm:grid md:mx-20">
+                    <section className="mb-5 grid-cols-2 items-center sm:grid md:mx-20">
                         <div className="-skew-y-1">
                             <PageTitle title="Ideeën voor de leukste welpenkampen" />
                         </div>
@@ -54,7 +54,7 @@ export default function Page({ allPosts }: PageProps) {
                             src={campfire}
                             alt="campfire"
                             placeholder="blur"
-                            className="max-w-sm rotate-3 rounded-2xl sm:max-w-xs lg:max-w-lg"
+                            className="max-w-xs rotate-3 rounded-2xl md:max-w-sm lg:max-w-lg"
                         />
                     </section>
                     <h2 className="mb-5 text-2xl font-bold text-slate-700">Thema&apos;s</h2>
