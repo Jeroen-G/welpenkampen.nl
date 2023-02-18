@@ -34,7 +34,7 @@ export default function PostLayout({ children, meta }: Props) {
                             ))}
                         </section>
                     )}
-                    <article className="prose prose-slate max-w-none prose-headings:text-slate-700 md:prose-lg">
+                    <article className="prose prose-slate max-w-none md:prose-lg prose-headings:text-slate-700">
                         {children}
                     </article>
                 </>
